@@ -125,6 +125,7 @@ camera:
     name: seven_segments
 image_processing:
   - platform: seven_segments
+    extra_arguments: -D erosion 
     x_position: 390
     y_position: 250
     height: 280
